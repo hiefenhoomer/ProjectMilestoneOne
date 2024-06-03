@@ -1,3 +1,7 @@
-/Yelp-CptS451/*
+/yelpInput/*
 /.idea/*
 /yelpOutput/*
+CptS451_Online_parseJSON.py
+milestone1DB.csv
+zipData.sql
+/docs/*

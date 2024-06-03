@@ -16,8 +16,8 @@ def getAttributes(attributes):
 def parseBusinessData():
     print("Parsing businesses...")
     #read the JSON file
-    with open('.//yelp_business.JSON','r') as f:
-        outfile =  open('.//yelp_business.txt', 'w')
+    with open('Yelp-CptS451/yelp_business.JSON','r') as f:
+        outfile =  open('yelpOutput/yelp_business.txt', 'w')
         line = f.readline()
         count_line = 0
         #read each JSON abject and extract data
@@ -61,8 +61,8 @@ def parseBusinessData():
 def parseReviewData():
     print("Parsing reviews...")
     #reading the JSON file
-    with open('.//yelp_review.JSON','r') as f:
-        outfile =  open('.//yelp_review.txt', 'w')
+    with open('Yelp-CptS451/yelp_review.JSON','r') as f:
+        outfile =  open('yelpOutput/yelp_review.txt', 'w')
         line = f.readline()
         count_line = 0
         failed_inserts = 0
@@ -88,8 +88,8 @@ def parseReviewData():
 def parseUserData():
     print("Parsing users...")
     #reading the JSON file
-    with open('.//yelp_user.JSON','r') as f:
-        outfile =  open('.//yelp_user.txt', 'w')
+    with open('Yelp-CptS451/yelp_user.JSON','r') as f:
+        outfile =  open('yelpOutput/yelp_user.txt', 'w')
         line = f.readline()
         count_line = 0
         while line:
@@ -120,8 +120,8 @@ def parseUserData():
 def parseCheckinData():
     print("Parsing checkins...")
     #reading the JSON file
-    with open('.\yelp_checkin.JSON','r') as f:  # Assumes that the data files are available in the current directory. If not, you should set the path for the yelp data files.
-        outfile = open('yelp_checkin.txt', 'w')
+    with open('Yelp-CptS451/yelp_checkin.JSON','r') as f:  # Assumes that the data files are available in the current directory. If not, you should set the path for the yelp data files.
+        outfile = open('yelpOutput/yelp_checkin.txt', 'w')
         line = f.readline()
         count_line = 0
         #read each JSON abject and extract data

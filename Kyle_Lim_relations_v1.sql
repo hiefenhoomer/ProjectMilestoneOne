@@ -1,4 +1,5 @@
-DO $$ 
+-- Dropped all tables in the database for testing.
+DO $$
 DECLARE 
     r RECORD;
 BEGIN 
